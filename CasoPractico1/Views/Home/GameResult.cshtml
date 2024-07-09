@@ -1,0 +1,9 @@
+﻿@model GameResult
+
+<div>
+    <h2>Game Over!</h2>
+    <p>Score: @Model.Score</p>
+    <p>Duration: @Model.Duration</p>
+    <a href="@Url.Action("Index", "Home")">Return to Main Menu</a>
+</div>
+

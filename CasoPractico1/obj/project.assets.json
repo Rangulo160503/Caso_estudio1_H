@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Universidad\\Progra Avanzada\\CasoPractico1\\CasoPractico1.csproj",
+      "projectUniqueName": "C:\\Users\\Sheyris\\Source\\Repos\\Caso_estudio1_H\\CasoPractico1\\CasoPractico1.csproj",
       "projectName": "CasoPractico1",
-      "projectPath": "D:\\Universidad\\Progra Avanzada\\CasoPractico1\\CasoPractico1.csproj",
+      "projectPath": "C:\\Users\\Sheyris\\Source\\Repos\\Caso_estudio1_H\\CasoPractico1\\CasoPractico1.csproj",
       "packagesPath": "D:\\NuGetPackages",
-      "outputPath": "D:\\Universidad\\Progra Avanzada\\CasoPractico1\\obj\\",
+      "outputPath": "C:\\Users\\Sheyris\\Source\\Repos\\Caso_estudio1_H\\CasoPractico1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sheyris\\AppData\\Roaming\\NuGet\\NuGet.Config",
