@@ -1,0 +1,23 @@
+﻿@model IEnumerable<CasoPractico1.Models.GameHistoryViewModel>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Username</th>
+            <th>Score</th>
+            <th>Duration</th>
+            <th>Date Played</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var game in Model)
+        {
+            <tr>
+                <td>@game.Username</td>
+                <td>@game.Score</td>
+                <td>@game.Duration</td>
+                <td>@game.DatePlayed</td>
+            </tr>
+        }
+    </tbody>
+</table>
