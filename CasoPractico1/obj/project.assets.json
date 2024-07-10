@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\camil\\.nuget\\packages\\": {}
+    "C:\\Users\\v-ronaldan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\camil\\Documents\\Proyecto\\Caso_estudio1_H\\CasoPractico1\\CasoPractico1.csproj",
+      "projectUniqueName": "C:\\Users\\v-ronaldan\\Source\\Repos\\Caso_estudio1_H\\CasoPractico1\\CasoPractico1.csproj",
       "projectName": "CasoPractico1",
-      "projectPath": "C:\\Users\\camil\\Documents\\Proyecto\\Caso_estudio1_H\\CasoPractico1\\CasoPractico1.csproj",
-      "packagesPath": "C:\\Users\\camil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\camil\\Documents\\Proyecto\\Caso_estudio1_H\\CasoPractico1\\obj\\",
+      "projectPath": "C:\\Users\\v-ronaldan\\Source\\Repos\\Caso_estudio1_H\\CasoPractico1\\CasoPractico1.csproj",
+      "packagesPath": "C:\\Users\\v-ronaldan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\v-ronaldan\\Source\\Repos\\Caso_estudio1_H\\CasoPractico1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\camil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\v-ronaldan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -70,7 +70,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
