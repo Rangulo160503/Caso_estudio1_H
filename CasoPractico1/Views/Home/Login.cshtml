@@ -1,0 +1,17 @@
+﻿@model ApplicationUser
+@{
+    ViewData["Title"] = "Login";
+}
+<form asp-action="Login" method="post" asp-controller="LoginController">
+    <label>FullName:</label>
+    <input asp-formaction="FullName" />
+    <br />
+    <label>Password:</label>
+    <input asp-formaction="Password" />
+    <br />
+    <button type="submit" class="btn btn-primary">Login</button>
+</form>
+
+<p>
+    <a href="@Url.Action("Index", "GameHistory")">View Game History</a>
+</p>

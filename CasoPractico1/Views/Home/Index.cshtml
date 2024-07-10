@@ -1,18 +1,25 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model CasoPractico1.Models.LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
 }
 
-@model ApplicationUser
+<h2>@ViewData["Title"]</h2>
 
-<div>
-    <h1>Welcome, @Model.FullName!</h1>
-    <img src="data:image/png;base64,@Model.ProfilePicture" alt="Profile Picture" width="50" height="50" />
-</div>
+<form asp-action="Login" method="post" asp-controller="Login">
+    <div class="form-group">
+        <label asp-for="FullName">FullName:</label>
+        <input asp-for="FullName" class="form-control" />
+        <span asp-validation-for="FullName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Password">Password:</label>
+        <input asp-for="Password" type="password" class="form-control" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Login</button>
+</form>
 
-<div>
-    <!-- contenido del juego -->
-
+<p>
     <a href="@Url.Action("Index", "GameHistory")">View Game History</a>
-
-</div>
-
+</p>

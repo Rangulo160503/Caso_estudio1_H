@@ -1,0 +1,16 @@
+﻿@model ApplicationUser
+@{
+    ViewData["Title"] = "Registro";
+}
+<form asp-action="Login" method="post" asp-controller="LoginController">
+    <label>FullName:</label>
+    <input asp-formaction="FullName" />
+    <br />
+    <label>Password:</label>
+    <input asp-formaction="Password" />
+    <br />
+    <label>ProfilePicture:</label>
+    <input asp-formaction="ProfilePicture" />
+    <br />
+    <button type="submit" class="btn btn-primary">Registrarse</button>
+</form>

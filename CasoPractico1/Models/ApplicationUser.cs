@@ -1,9 +1,10 @@
-﻿namespace CasoPractico1.Models
+﻿using Microsoft.AspNetCore.Identity;
+
+namespace CasoPractico1.Models
 {
-    public class ApplicationUser
+    public class ApplicationUser : IdentityUser
     {
         public string FullName { get; set; }
-        public string ProfilePicture { get; set; } 
-
+        public string ProfilePicture { get; set; }
     }
 }
